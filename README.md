@@ -1,10 +1,8 @@
 # vue3-teleport-mount
 
-**English** | [中文](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.zh-CN.md)
-
-## Feature Description
-
 Similar to the built-in Vue3 component `<Teleport>`, it renders components functionally to a specified location, solving the problem that when rendering components functionally, the components cannot obtain the `provide` values of their ancestor components.
+
+**English** | [中文](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.zh-CN.md)
 
 ## Installation
 

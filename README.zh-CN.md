@@ -1,10 +1,9 @@
 # vue3-teleport-mount
 
+类似Vue3内置组件`<Teleport>`，通过函数式渲染组件到指定位置，解决函数式渲染组件时，组件无法获取到祖先组件`provide`值的问题
+
 [English](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.md) | **中文**
 
-## 功能描述
-
-类似Vue3内置组件`<Teleport>`，通过函数式渲染组件到指定位置，解决函数式渲染组件时，组件无法获取到祖先组件`provide`值的问题
 
 ## 安装
 
