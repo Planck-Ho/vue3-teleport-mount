@@ -6,6 +6,14 @@ Similar to the built-in Vue3 component `<Teleport>`, it renders components funct
 
 ## Installation
 
+```bash
+npm install vue3-teleport-mount
+# Or use pnpm
+pnpm install vue3-teleport-mount
+```
+
+## Usage
+
 ### 1. Register the Plugin `TeleportPlugin`
 
 ```ts

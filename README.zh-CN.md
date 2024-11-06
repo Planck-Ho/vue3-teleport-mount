@@ -7,6 +7,13 @@
 
 ## 安装
 
+```bash
+npm install vue3-teleport-mount
+# Or use pnpm
+pnpm install vue3-teleport-mount
+```
+
+## 使用
 1. 注册插件`TeleportPlugin`
 
 ```ts
