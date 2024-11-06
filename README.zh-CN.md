@@ -1,4 +1,4 @@
-# useTeleport
+# vue3-teleport-mount
 
 [English](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.md) | **中文**
 
