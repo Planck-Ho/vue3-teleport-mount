@@ -1,6 +1,6 @@
 # useTeleport
 
-[英文](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.md) | **中文**
+[English](https://github.com/Planck-Ho/vue3-teleport-mount/blob/main/README.md) | **中文**
 
 ## 功能描述
 
@@ -11,7 +11,7 @@
 1. 注册插件`TeleportPlugin`
 
 ```ts
-import { TeleportPlugin } from 'use-teleport'
+import { TeleportPlugin } from 'vue3-teleport-mount'
 
 const app = createApp(App)
 app.use(TeleportPlugin)
@@ -21,7 +21,7 @@ app.use(TeleportPlugin)
 
 ```xml
 <script setup>
-import { TeleportView } from 'use-teleport'
+import { TeleportView } from 'vue3-teleport-mount'
 </script>
 
 <template>
@@ -35,7 +35,7 @@ import { TeleportView } from 'use-teleport'
 
 ```xml
 <script setup lang="tsx">
-import { useTeleport } from 'use-teleport'
+import { useTeleport } from 'vue3-teleport-mount'
 
 const { mount, unmount, getInstance } = useTeleport(
   defineAsyncComponent(() => import('./MyComponent.vue')), // 通过defineAsyncComponent引入组件，优化性能
@@ -99,7 +99,7 @@ interface TeleportViewProps {
 
 ```xml
 <script setup lang="tsx">
-import { useTeleport } from 'use-teleport'
+import { useTeleport } from 'vue3-teleport-mount'
 import MyComponent from './MyComponent.vue'
 import MyComponent2 from './MyComponent2.vue'
 

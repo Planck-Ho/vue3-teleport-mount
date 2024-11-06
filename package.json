@@ -27,7 +27,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
-  "homepage": "https://github.com/Planck-Ho/vue3-teleport-mount",
+  "homepage": "https://github.com/Planck-Ho/vue3-teleport-mount#redeme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Planck-Ho/vue3-teleport-mount.git"
